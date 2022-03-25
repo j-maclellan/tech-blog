@@ -4,9 +4,9 @@ const bcrpyt = require('bcrypt');
 
 // create User Model
 class User extends Model {
-    // checkPassword(loginPw) {
-    //     return bcrpyt.compareSync(loginPw, this.password);
-    // }
+    checkPassword(loginPw) {
+        return bcrpyt.compareSync(loginPw, this.password);
+    }
 }
 
 User.init(
