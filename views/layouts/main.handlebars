@@ -11,9 +11,6 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>
-                <a href="/">Techie Central</a>
-            </h1>
             <nav>
                 <a href="/">Home</a>
                 <a href="/dashboard">Dashboard</a>
@@ -23,12 +20,16 @@
                 <a href="/login">Login</a>
                 {{/if}}
             </nav>
+            <br />
+            <h1>
+                Techie Central
+            </h1>
         </header>
         <main>
             {{{ body }}}
         </main>
         <footer>
-            Thanks for visiting!
+            Come again!
         </footer>
     </div>
     {{#if loggedIn}}
