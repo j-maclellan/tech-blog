@@ -167,16 +167,18 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
-}
-
-.comment:nth-child(odd) {
-  background-color: #fff5eb;
+  border: 1px solid #333;
+  background-color: white;
 }
 
 .comment .meta {
   font-size: 90%;
   margin-bottom: 0.5%;
   opacity: 0.6;
+}
+
+.comment .meta span {
+  border-bottom: 1px dashed #333;
 }
 
 .new-post-form {
