@@ -22,6 +22,10 @@ This application is a tech related blog where users can post and comment on othe
 
 ![Screenshot](./assets/READMEIMG.jpg)
 
+## Heroku Link
+
+https://technerd-blog.herokuapp.com/
+
 ## Contributor
 
 - j-maclellan
